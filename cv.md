@@ -1,4 +1,3 @@
-
 # DARYA KIRICHENKO
 
 * CONTACTS
@@ -57,3 +56,7 @@ Gomel State Medical University
 ## ENGLISH
 
 B1 (Intermediate)
+
+* 2022
+* [Kir31](https://github.com/Kir31)
+* (https://rs.school/js/)
