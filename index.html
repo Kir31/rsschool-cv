@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,92 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#contacts">CONTACTS</a></li>
-                <li><a href="#about_me">ABOUT ME</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#code">CODE</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#courses">COURSES</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#english">ENGLISH</a></li>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link">ABOUT ME</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">COURSES</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">ENGLISH</a></li>
             </ul>
         </nav>
-        <img src="assets/img/foto.jpg" alt="my foto" srcset="">
-        <h1>DARYA KIRICHENKO</h1>
+
     </header>
     <main>
-
+        <section class="section" id="profile">
+            <div class="foto">
+                <img src="assets/img/foto.jpg" alt="my foto" srcset="">
+            </div>            
+            <h1>DARYA KIRICHENKO</h1>
+        </section>
+        <section class="section" id="contacts">
+            <ul>
+                <li>+375445011180</li>
+                <li>Kir31</li>
+                <li>Darya#5765</li>
+                <li>dak3103@gmail.com</li>
+                <li>Gomel, Belarus</li>
+            </ul>
+        </section>
+        <section class="section" id="about me">
+            <p>I am not a programmer. But I'd like to be one. That's why I started study at RS School. I found
+                programming very interesting. I graduated medical university, thus I can learn fast a lot of information
+                in a short time. And I've worked as a doctor in different clinics for about 5 years, so I have enough
+                experience in communicating with people. Therefore I can easily become a part of the team. I like
+                studying and always improving my skills.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (Basic)</li>
+                <li>Version control: Git, GitHub</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2>CODE</h2>
+            <div>
+                function sumAll(...all) {
+                let result = 0
+                for (let num of all) {
+                result += num
+                }
+                return result
+                }
+                const res = sumAll(1, 2, 3, 4, 5)
+                console.log(res)
+            </div>
+        </section>
+        <section class="section" id="projects">
+            <h2>PROJECTS</h2>
+            <p>This CV is my first project</p>
+        </section>
+        <section class="section" id="courses">
+            <h2>COURSES</h2>
+            <ul>
+                <li>Udemy - JavaScript + React</li>
+                <li>RS School - JS/Front-end</li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2>EDUCATION</h2>
+            <p>Gomel State Medical University</p>
+        </section>
+        <section class="section" id="english">
+            <h2>ENGLISH</h2>
+            <p>B1 (Intermediate)</p>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
