@@ -172,3 +172,12 @@ code {
     background-color: #79204c;
     padding: 10px;
 }
+
+.cv {
+    text-decoration: none;
+    color: #030405;
+}
+
+.cv:hover {
+    color: #640e39;
+}
